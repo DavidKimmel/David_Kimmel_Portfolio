@@ -66,7 +66,7 @@
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <a href="childcare.html">
+                    <a href="sat.html">
                         <img class="card-img-top" src="assets/satthumb.jpg" alt="Space Race"></a>
                     <div class="card-body">
                         <h4 class="card-title">Sattelite Mass</h4>
@@ -87,32 +87,42 @@
             <p></p>
             <div class="col-md-4">
                 <div class="card">
-                    <a href="fairfax.html">
+                    <a href="bay.html">
                         <img class="card-img-top" src="assets/baythumb.jpg" alt="Carrol County Vulnerability">
                     </a>
                     <div class="card-body">
                         <h4 class="card-title">Eutrophication in Chesapeake</h4>
-                        <a href="fairfax.html" class="btn btn-primary">See Detail</a>
+                        <a href="bay.html" class="btn btn-primary">See Detail</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <a href="childcare.html">
-                        <img class="card-img-top" src="assets/squirrelthumb.jpg" alt="cost of childcare in the united states infographic"></a>
+                    <a href="#" class="image-popup" data-img="assets/squirrel.jpg">
+                        <img class="card-img-top" src="assets/squirrelthumb.jpg" alt="WV Flying Squirrel Habitat">
+                    </a>
                     <div class="card-body">
                         <h4 class="card-title">WV Flying Squirrel Habitat</h4>
-                        <a href="childcare.html" class="btn btn-primary">See Detail</a>
+                        <button class="btn btn-primary image-popup" data-img="assets/squirrel.jpg">See Detail</button>
                     </div>
                 </div>
             </div>
+            <div id="lightbox" style="display: none;">
+                <span class="close">&times;</span>
+                <img class="lightbox-content" id="lightbox-img" src="">
+            </div>
+        
+
+
+        
             <div class="col-md-4">
                 <div class="card">
-                    <a href="hati.html">
-                        <img class="card-img-top" src="assets/broadbandthumb.jpg" alt="Hati"></a>
+                    <a href="#" class="image-popup" data-img="assets/CC.jpg">
+                        <img class="card-img-top" src="assets/broadbandthumb.jpg" alt="Carroll County Broadband">
+                    </a>
                     <div class="card-body">
-                        <h4 class="card-title">Broadband Suitability</h4>
-                        <a href="hati.html" class="btn btn-primary">See Detail</a>
+                        <h4 class="card-title">Carroll County Broadband</h4>
+                        <button class="btn btn-primary image-popup" data-img="assets/CC.jpg">See Detail</button>
                     </div>
                 </div>
             </div>
@@ -137,6 +147,7 @@
     <!--put your external script links here-->
     <script type="text/javascript" src="lib/jquery-3.5.1.min.js"></script>
     <script type="text/javascript" src="lib/bootstrap.min.js"></script>
+    <script src="lib/script.js"></script>
 </body>
 
 </html>

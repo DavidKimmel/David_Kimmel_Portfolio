@@ -126,3 +126,32 @@ body {
 .contact-icon {
     height: 50px;
 }
+/* Lightbox */
+#lightbox {
+    position: fixed;
+    z-index: 1050;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lightbox-content {
+    max-width: 90%;
+    max-height: 90%;
+    border: 2px solid white;
+}
+
+#lightbox .close {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    cursor: pointer;
+}
